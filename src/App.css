@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.todo-container{
+  min-width: 40rem;
+  min-height: 80vh;
+  border: 2px solid aqua;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(#222831, #006e74) no-repeat center / cover;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+input{
+  min-width: 25rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.list-container{
+  min-width: 40rem;
+  min-height: 30rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: start;
+  align-items: center; */
+  text-align: center;
+  padding: 1rem;
+}
+.list{
+  min-width: 80%;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  background-color: #222;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 auto;
+}
