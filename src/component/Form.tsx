@@ -5,7 +5,7 @@ const Form = () => {
   // for what the user enters to make them dynamic
   const [inputValue, setInputValue] = useState<any>("");
   // to display what the user has entered
-  const [items, setItems] = useState<any>([]);
+  const [items, setItems] = useState<string[]>([]);
 
   const handleInputValue = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
@@ -35,11 +35,9 @@ const Form = () => {
           </label>
           <button type="submit">Submit</button>
         </form>
-        <ItemHandler items={items}/>
+        <ItemHandler items={items} setItems={setItems} />
       </div>
     </>
   );
 };
 export default Form;
-
-        

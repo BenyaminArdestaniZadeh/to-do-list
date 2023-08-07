@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-.todo-container{
+.todo-container {
   min-width: 40rem;
   min-height: 80vh;
   border: 2px solid aqua;
@@ -12,20 +12,20 @@
   background: linear-gradient(#222831, #006e74) no-repeat center / cover;
 }
 
-form{
+form {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-input{
+input {
   min-width: 25rem;
   padding: 0.8rem 1.5rem;
   border: none;
   outline: none;
   border-radius: 5px;
 }
-.list-container{
+.list-container {
   min-width: 40rem;
   min-height: 30rem;
   margin-top: 2rem;
@@ -38,7 +38,7 @@ input{
   text-align: center;
   padding: 1rem;
 }
-.list{
+.list {
   min-width: 80%;
   padding: 1rem 1.5rem;
   border-radius: 5px;
@@ -48,4 +48,20 @@ input{
   font-weight: bold;
   color: #fff;
   margin: 0 auto;
+  position: relative;
+}
+.delete-button-style {
+  color: whitesmoke;
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  background-color: rgb(213, 64, 64);
+  border-radius: 5px !important;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all linear 200ms;
+}
+.delete-button-style:hover {
+  background-color: rgb(133, 1, 1);
 }

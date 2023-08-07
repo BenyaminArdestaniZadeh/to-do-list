@@ -1,5 +1,5 @@
-const ItemHandler = ({items}:any) => {
-
+import DeleteButton from "./DeleteButton";
+const ItemHandler = ({ items, setItems }: any) => {
   return (
     <>
       <div className="list-container">
@@ -7,6 +7,7 @@ const ItemHandler = ({items}:any) => {
           {items.map((item: any, index: number) => (
             <li key={index} className="list">
               {item}
+              <DeleteButton items={items} setItems={setItems} index={index} />
             </li>
           ))}
         </ul>
