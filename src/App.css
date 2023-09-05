@@ -30,11 +30,6 @@ input {
   min-height: 30rem;
   margin-top: 2rem;
   border-radius: 5px;
-  /* display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: start;
-  align-items: center; */
   text-align: center;
   padding: 1rem;
 }
