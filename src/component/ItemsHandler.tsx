@@ -1,5 +1,8 @@
 import DeleteButton from "./DeleteButton";
-const ItemHandler = ({ items, setItems }: any) => {
+import { useContext } from "react";
+import { ItemsContext } from "../context/ItemsContext";
+const ItemHandler = () => {
+  const [items, setItems] = useContext(ItemsContext);
   return (
     <>
       <div className="list-container">

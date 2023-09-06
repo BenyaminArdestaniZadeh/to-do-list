@@ -19,7 +19,6 @@ const DeleteButton = ({ items, setItems, index }: DeleteButtonType) => {
       <button
         type="submit"
         className="delete-button-style"
-        //   onClick={handleDeletButton}
         onClick={handleDeletButton}
       >
         <FontAwesomeIcon icon={faTrash} />
