@@ -1,10 +1,13 @@
-import './App.css'
-import Form from './component/Form'
-const App=()=>{
-  return(
+import "./App.css";
+import Form from "./component/Form";
+import ItemsProvider from "./context/ItemsContext";
+const App = () => {
+  return (
     <>
-    <Form/>
+      <ItemsProvider>
+        <Form />
+      </ItemsProvider>
     </>
-  )
-}
-export default App
+  );
+};
+export default App;
