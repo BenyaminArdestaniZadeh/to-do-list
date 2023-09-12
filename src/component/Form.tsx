@@ -7,7 +7,6 @@ const Form = () => {
   // for what the user enters to make them dynamic
   const [inputValue, setInputValue] = useState<string>("");
   // to display what the user has entered
-  // const [items, setItems] = useState<string[]>([]);
 
   const [items, setItems] = useContext(ItemsContext);
 
