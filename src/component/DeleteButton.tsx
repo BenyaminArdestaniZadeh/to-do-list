@@ -7,7 +7,7 @@ interface DeleteButtonType {
   index: number;
 }
 
-const DeleteButton = ({ items, setItems, index }: DeleteButtonType) => {
+export const DeleteButton = ({ items, setItems, index }: DeleteButtonType) => {
   const handleDeletButton = () => {
     const newList = [...items];
     newList.splice(index, 1);
